@@ -35,9 +35,9 @@ public class BookShop {
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
 	}
-	
-	private static void displayBookInfo( Book[] books ) {
-		for( Book book : books ) {
+
+	private static void displayBookInfo(Book[] books) {
+		for(Book book : books) {
 			book.print();
 		}
 	}
